@@ -1,0 +1,64 @@
+📁 SCHOOL MANAGEMENT SYSTEM - FILE STRUCTURE
+=============================================
+
+✅ ESSENTIAL FILES (Keep All)
+------------------------------
+
+📄 CORE APPLICATION:
+  ├── app.py                          ⭐ Main Streamlit application
+  └── School_management_System.ipynb  📓 Jupyter notebook with OOP code
+
+📚 DOCUMENTATION:
+  ├── README.md                       📖 Main project documentation
+  ├── CONTRIBUTING.md                 🤝 Contribution guidelines
+  ├── LICENSE                         ⚖️ MIT License
+  └── HOW_TO_UPLOAD.txt              🚀 GitHub upload instructions
+
+⚙️ CONFIGURATION:
+  ├── requirements.txt                📦 Python dependencies
+  ├── .gitignore                      🚫 Git ignore rules
+  └── .streamlit/config.toml          🎨 Streamlit theme settings
+
+🚀 LAUNCHER SCRIPTS:
+  ├── run.bat                         🪟 Windows launcher
+  └── run.sh                          🐧 Linux/Mac launcher
+
+📁 FOLDERS:
+  ├── .github/                        (Empty - can delete)
+  ├── .streamlit/                     (Contains config.toml)
+  ├── docs/                           (Empty - can delete)
+  └── screenshots/                    (Empty - add screenshots here)
+
+
+TOTAL: 9 essential files + 2 scripts + 1 config folder
+=============================================
+
+🗑️ OPTIONAL TO DELETE:
+------------------------------
+- .github/ folder (if empty)
+- docs/ folder (if empty)
+- screenshots/ folder (until you add screenshots)
+- HOW_TO_UPLOAD.txt (after you upload to GitHub)
+- PROJECT_FILES.txt (this file - just for reference)
+
+
+📝 BEFORE UPLOADING TO GITHUB:
+------------------------------
+1. ✅ Keep all files listed above
+2. ✅ Update README.md with your GitHub username
+3. ✅ Add screenshots to screenshots/ folder (optional)
+4. ✅ Test the app: streamlit run app.py
+5. ✅ Follow HOW_TO_UPLOAD.txt instructions
+
+
+🎯 MINIMAL SETUP (If you want super clean):
+------------------------------
+Keep only these 6 files:
+  1. app.py
+  2. requirements.txt
+  3. README.md
+  4. LICENSE
+  5. .gitignore
+  6. .streamlit/config.toml
+
+Everything else is optional but recommended!
